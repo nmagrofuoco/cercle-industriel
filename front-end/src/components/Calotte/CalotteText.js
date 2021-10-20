@@ -4,7 +4,6 @@ import { motion } from 'framer-motion';
 
 import Authors from '../Authors';
 
-import authorPhoto from '../../img/unknown-profile.jpg';
 import vadeMecum from '../../files/vade-mecum-119-120.pdf';
 
 export default function CalotteText({ updateScroller }) {
@@ -12,7 +11,7 @@ export default function CalotteText({ updateScroller }) {
     {
       name: 'Le jour et la nuit',
       postes: 'La nuit surtout et sur toutes...',
-      photo: authorPhoto,
+      photo: 'unknown-profile.jpg',
     },
   ];
 

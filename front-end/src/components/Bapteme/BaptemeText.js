@@ -4,7 +4,6 @@ import { motion } from 'framer-motion';
 
 import Authors from '../Authors';
 
-import authorPhoto from '../../img/unknown-profile.jpg';
 import protocoleBapteme from '../../files/protocole_bapteme.pdf';
 
 export default function BaptemeText({ updateScroller }) {
@@ -12,7 +11,7 @@ export default function BaptemeText({ updateScroller }) {
     {
       name: 'Un ancêtre respectable',
       postes: 'Il y a fort fort longtemps...',
-      photo: authorPhoto,
+      photo: 'unknown-profile.jpg',
     },
   ];
 

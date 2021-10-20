@@ -4,13 +4,11 @@ import { motion } from 'framer-motion';
 
 import Authors from '../Authors';
 
-import authorPhoto from '../../img/unknown-profile.jpg';
-
 export default function PolesText({ updateScroller }) {
   const author = {
     name: 'Nathan "Fafanculo" Magrofuoco',
     postes: 'Culture/anim 2015-16, Info/web 2014-15',
-    photo: authorPhoto,
+    photo: '2016-fafanculo.jpg',
   };
 
   return (

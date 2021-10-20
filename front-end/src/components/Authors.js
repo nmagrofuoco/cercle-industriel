@@ -3,7 +3,7 @@ export default function Authors({ authors, updateScroller }) {
     <img
       onLoad={updateScroller}
       key={author.name + '_picture'}
-      src={author.photo}
+      src={'https://cercle-industriel.be/img/' + author.photo}
       alt={author.name}
     ></img>
   ));

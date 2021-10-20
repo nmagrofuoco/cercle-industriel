@@ -4,14 +4,12 @@ import { motion } from 'framer-motion';
 
 import Authors from '../Authors';
 
-import authorPhoto from '../../img/unknown-profile.jpg';
-
 export default function PresentationText({ updateScroller }) {
   const authors = [
     {
       name: 'Un ancêtre respectable',
       postes: 'Il y a fort fort longtemps...',
-      photo: authorPhoto,
+      photo: 'unknown-profile.jpg',
     },
   ];
 

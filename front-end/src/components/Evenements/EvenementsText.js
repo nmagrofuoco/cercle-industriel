@@ -4,24 +4,22 @@ import { motion } from 'framer-motion';
 
 import Authors from '../Authors';
 
-import authorPhoto from '../../img/unknown-profile.jpg';
-
 export default function BaptemeText({ updateScroller }) {
   const authors = [
     {
       name: 'Bastien Tagnon',
       postes: 'Kfet 2016-17, Guindaille 2017-18',
-      photo: authorPhoto,
+      photo: '2016-tagnon.jpg',
     },
     {
       name: 'Vincent Cattoir',
       postes: 'Bar 2015-16, Clash/web 2014-15',
-      photo: authorPhoto,
+      photo: '2014-vincent.jpg',
     },
     {
       name: 'Nathan "Fafanculo" Magrofuoco',
       postes: 'Culture/anim 2015-16, Info/web 2014-15',
-      photo: authorPhoto,
+      photo: '2016-fafanculo.jpg',
     },
   ];
 

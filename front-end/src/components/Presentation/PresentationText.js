@@ -4,20 +4,17 @@ import { motion } from 'framer-motion';
 
 import Authors from '../Authors';
 
-import author1Photo from '../../img/unknown-profile.jpg';
-import author2Photo from '../../img/unknown-profile.jpg';
-
 export default function PresentationText({ updateScroller }) {
   const authors = [
     {
       name: 'Antoine "Maindial" Maindiaux',
       postes: 'Président 2015-16, Souk 2014-15',
-      photo: author1Photo,
+      photo: '2014-mandiaux.jpg',
     },
     {
       name: 'Robin "Mouf" El Raghibi',
       postes: 'Secrétaire 2015-16, Contact 2014-15',
-      photo: author2Photo,
+      photo: '2014-mouf.jpg',
     },
   ];
 
