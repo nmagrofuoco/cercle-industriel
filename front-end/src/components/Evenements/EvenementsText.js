@@ -18,7 +18,7 @@ export default function BaptemeText({ updateScroller }) {
     },
     {
       name: 'Nathan "Fafanculo" Magrofuoco',
-      postes: 'Culture/anim 2015-16, Info/web 2014-15',
+      postes: 'Culture/anim 2016-17, Info/web 2015-16',
       photo: '2016-fafanculo.jpg',
     },
   ];
@@ -165,50 +165,6 @@ export default function BaptemeText({ updateScroller }) {
               </g>
             </svg>
           </a>
-        </p>
-        <h2>Salopette</h2>
-        <p>
-          La Salopette est connue des plus anciens sous le diminutif de la
-          Salop'. Avec un tel nom, on pourrait s'attendre au pire... Pourtant,
-          la Salop' tire son origine de la « salopette », vêtement de travail
-          bien connu de tous. Elle n'en est d'ailleurs que le diminutif, c'est
-          pourquoi on prend l'habitude de l'écrire avec un apostrophe final : «
-          Salop' ». Son histoire s'est quelque peu perdue dans les mémoires les
-          plus anciennes du CI. Mais elle n'en demeure pas moins connue de tous
-          les étudiants de l'Ecole Polytechnique de Louvain, alumnis comme
-          jeunes bacheliers.
-        </p>
-        <p>
-          La Salop' est qualifiée de mardimadaire car elle est distribuée tous
-          les mardis dans le hall Sainte Barbe. Les étudiants peuvent alors
-          déguster sa richesse littéraire, humouristique et érotique. Car, oui,
-          la Salop' est un recueil de poésies, de subtilités, de blagues
-          salaces, de petits jeux divertissants et de femmes légèrement
-          dénudées.
-        </p>
-        <p>
-          Bien que son caractère masculin et « cerclard » lui soient souvent
-          reprochés, la Salop' se veut tout public. En effet, tous les membres
-          de l'EPL sont invités à lire cette dernière, qu'ils soient professeurs
-          ou étudiants, baptisés ou non, hommes ou femmes. Notons cependant que
-          la Salop' étant rédigée par les vice-infos du CI, certaines « private
-          jokes » peuvent subsister au sein des articles reliés à la vie
-          quotidienne du cercle.
-        </p>
-        <p>
-          L'une des fiertés de la Salop' est qu'elle est imprimée exclusivement
-          au CI, et non, comme la plupart des autres cercles ou institutions,
-          par des professionnels. Pensées spéciales à Roger, également surnommé
-          Daniel, ou plus communément Tabata, notre « offset », qui nous a
-          supporté durant maintes et maintes années.
-        </p>
-        <p>
-          Depuis le début du millénaire, la Salop' est également disponible sur
-          Internet afin de limiter le nombre d'impressions et d'archiver son
-          contenu. En raison de son contenu décalé, à la limite du troisième
-          degré, son accès est limité sur ce site et le lecteur intéréssé est
-          invité à contacter le vice-web en activité pour recevoir accès aux
-          archives disponibles (de 2004 à nos jours).
         </p>
       </motion.div>
       <Authors authors={authors} updateScroller={updateScroller} />

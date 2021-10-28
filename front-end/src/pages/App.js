@@ -14,6 +14,7 @@ import Home from './Home';
 import Histoire from './Histoire';
 import Poles from './Poles';
 import Presentation from './Presentation';
+import Salopette from './Salopette';
 
 import Header from '../components/Header.js';
 import Footer from '../components/Footer.js';
@@ -31,12 +32,6 @@ export default function App() {
       el: document.querySelector('.scroller'),
       getDirection: true,
       smooth: true,
-      smartphone: {
-        smooth: true,
-      },
-      tablet: {
-        smooth: true,
-      },
       reloadOnContextChange: true,
     });
     scroller.current.on('scroll', instance => {
@@ -76,6 +71,9 @@ export default function App() {
           <Switch location={location} key={location.pathname}>
             <Route path="/contact">
               <Contact updateScroller={updateScroller} />
+            </Route>
+            <Route path="/salopette">
+              <Salopette updateScroller={updateScroller} />
             </Route>
             <Route path="/evenements">
               <Evenements updateScroller={updateScroller} />

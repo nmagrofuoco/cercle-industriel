@@ -47,6 +47,13 @@ export default function Footer() {
         <div>
           <ul>
             <li>
+              <Link to="/salopette">Salopette</Link>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
               <Link to="/contact">Contact</Link>
             </li>
           </ul>
@@ -59,7 +66,7 @@ export default function Footer() {
         </div>
         <div>
           <a href="mailto:nathan.magrofuoco@gmail.com">
-            Made for a few <i className="emoji">🍺</i> by Nathan Magrofuoco
+            Développé par Nathan Magrofuoco
           </a>
         </div>
       </div>

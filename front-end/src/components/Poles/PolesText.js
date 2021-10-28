@@ -7,7 +7,7 @@ import Authors from '../Authors';
 export default function PolesText({ updateScroller }) {
   const author = {
     name: 'Nathan "Fafanculo" Magrofuoco',
-    postes: 'Culture/anim 2015-16, Info/web 2014-15',
+    postes: 'Culture/anim 2016-17, Info/web 2015-16',
     photo: '2016-fafanculo.jpg',
   };
 

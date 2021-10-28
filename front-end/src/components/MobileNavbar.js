@@ -124,6 +124,14 @@ export default function MobileNavbar({ startScroller, stopScroller }) {
         <li className="main-item">
           <Link
             onClick={() => toggleMobileMenu(!mobileMenuIsOpen)}
+            to="/salopette"
+          >
+            Salopette
+          </Link>
+        </li>
+        <li className="main-item">
+          <Link
+            onClick={() => toggleMobileMenu(!mobileMenuIsOpen)}
             to="/contact"
           >
             Contact

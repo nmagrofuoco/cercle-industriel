@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom';
 
 import { motion } from 'framer-motion';
 
-import photoComite from '../../img/background-comite.jpg';
-
 export default function Jumbotron({ updateScroller }) {
   return (
     <div data-scroll-section layout="column top-justify" className="container">
@@ -31,7 +29,7 @@ export default function Jumbotron({ updateScroller }) {
           <figure>
             <motion.img
               onLoad={updateScroller}
-              src={photoComite}
+              src="https://cercle-industriel.be/img/comites/comite.jpg"
               alt="Le comité en fonction"
               initial={{ opacity: 0, scale: 0.7 }}
               animate={{ opacity: 1, scale: 1 }}

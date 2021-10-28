@@ -10,9 +10,9 @@ export default function Evenements({ updateScroller }) {
       <Headtitle title="Les événements du Cercle Industriel" />
       <EvenementsText updateScroller={updateScroller} />
       <Banner
-        line1="Contactez-nous. Contactez-nous. Contactez-nous. Contactez-nous. Contactez-nous."
-        line2="Contactez-nous. Contactez-nous. Contactez-nous. Contactez-nous. Contactez-nous."
-        link="/contact"
+        line1="La Salopette. La Salopette. La Salopette. La Salopette. La Salopette. La Salopette."
+        line2="La Salopette. La Salopette. La Salopette. La Salopette. La Salopette. La Salopette."
+        link="/salopette"
       />
     </motion.div>
   );

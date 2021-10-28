@@ -16,6 +16,10 @@ const app = express();
 app.use(express.static(path.join(__dirname, 'front-end/build')));
 
 app.use('/img', express.static(path.join(__dirname, 'img')));
+app.use(
+  '/downloads/salopette',
+  express.static(path.join(__dirname, 'downloads/salopette'))
+);
 app.use(express.json());
 app.use(cors());
 
@@ -24,6 +28,7 @@ connectDB();
 
 // back-end routes
 app.use('/api/comites', require('./back-end/routes/api/comites'));
+app.use('/api/salopettes', require('./back-end/routes/api/salopettes'));
 app.use('/api', (req, res) => res.send('API running'));
 
 // front-end routes are handled by React-router
